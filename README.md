@@ -1,6 +1,6 @@
 # chain-decorator
 
-Simple ES7 Decorator to allow methods chaining.
+Simple ES7 Decorator to allow method chaining.
 
 
 ## Installation
