@@ -1,4 +1,4 @@
-function chain(target, key, descriptor) {
+export function chain(target, key, descriptor) {
   const func = descriptor.value;
 
   descriptor.value = function () {
@@ -7,6 +7,3 @@ function chain(target, key, descriptor) {
   };
   return descriptor;
 }
-
-export { chain: chain };
-export default { chain: chain };
