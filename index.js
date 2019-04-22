@@ -1,12 +1,12 @@
 function chain(target, key, descriptor) {
   const func = descriptor.value;
 
-  descriptor.value = function (...args) {
-    func.apply(this, args);
+  descriptor.value = function () {
+    func.apply(this, arguments);
     return this;
   };
   return descriptor;
 }
 
-export { chain };
-export default { chain };
+export { chain: chain };
+export default { chain: chain };
