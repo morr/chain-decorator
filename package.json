@@ -1,0 +1,25 @@
+{
+  "name": "chain-decorator",
+  "version": "1.0.0",
+  "description": "ES7 Decorator to allow methods chaining",
+  "main": "index.js",
+  "devDependencies": {
+  },
+  "keywords": [
+    "chain",
+    "chaining",
+    "decorator"
+  ],
+  "repository": {
+    "url": "git@github.com:morr/chain-decorator.git",
+    "type": "git"
+  },
+  "author": "morr",
+  "maintainers": [
+    {
+      "name": "Andrey Sidorov",
+      "email": "takandar@gmail.com"
+    }
+  ],
+  "license": "MIT"
+}
