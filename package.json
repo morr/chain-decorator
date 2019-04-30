@@ -1,6 +1,6 @@
 {
   "name": "chain-decorator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ES7 Decorator to allow methods chaining",
   "main": "index.js",
   "devDependencies": {
