@@ -1,5 +1,5 @@
 export function chain(target, key, descriptor) {
-  const func = descriptor.value;
+  var func = descriptor.value;
 
   descriptor.value = function () {
     func.apply(this, arguments);
